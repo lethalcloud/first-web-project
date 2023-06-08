@@ -1,6 +1,6 @@
 * {
    
-    box-sizing: border-box;
+    
     
 }
 
@@ -80,4 +80,99 @@ body {
     justify-content: center;
     align-items: center;
     background-color: gray;
+}
+
+
+
+
+.section-2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+}
+
+.info {
+    font-size: 36px;
+    
+    align-self: center;
+
+    
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 750px;
+    margin-top: 35px;
+    
+}
+
+.box-1 {
+    border: rgb(39, 95, 247) solid 4px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.box-2 {
+    border: rgb(39, 95, 247) solid 4px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.box-3 {
+    border: rgb(39, 95, 247) solid 4px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.box-4 {
+    border: rgb(39, 95, 247) solid 4px; 
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text {
+    width: 190px;  
+}
+
+
+
+.section-3 {
+    background-color: rgb(207, 207, 207);
+    height: 250px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.name {
+    display: flex;
+    width: 800px;
+    justify-content: flex-end;
+    font-size: 22px;
 }
