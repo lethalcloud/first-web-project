@@ -28,7 +28,8 @@ body {
     flex-grow: 1;
     text-decoration: none;
     font-size: 18px;
-    
+    color: white;
+    list-style: none;
 }
 
 
@@ -175,4 +176,42 @@ body {
     width: 800px;
     justify-content: flex-end;
     font-size: 22px;
+}
+
+.footer {
+    background-color: white;
+    height: 150px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer-container {
+    border-radius: 8px;
+    display: flex;
+    background-color: rgb(44, 112, 240);
+    height: 120px;
+    width: 750px;
+    justify-content: space-evenly;
+}
+
+.footer-text {
+    height: 25px;
+    align-self: center;
+    width: 500px;
+    height: 50px;
+    
+    
+}
+
+.button-2 {
+    outline: solid rgb(255, 255, 255) 2px;
+    align-self: center ;
+    width: 100px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
 }
